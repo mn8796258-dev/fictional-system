@@ -1,0 +1,70 @@
+index.html<!doctype html>
+<html lang="ur">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fictional System — Furniture</title>
+  <meta name="description" content="High-quality home furniture at affordable prices. Contact us for modern bedroom and living room sets.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Fictional System</h1>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>خوش آمدید — Fictional System</h2>
+        <p>ہم اعلیٰ معیار کا فرنیچر فراہم کرتے ہیں — بیڈروم سیٹ، الماریاں اور گھر کے دیگر سامان۔</p>
+        <a class="btn" href="#contact">رابطہ کریں</a>
+      </div>
+    </section>
+
+    <section id="about" class="container card">
+      <h3>About</h3>
+      <p>ہماری دکان معیاری اور آرام دہ فرنیچر گھر تک پہنچاتی ہے۔</p>
+    </section>
+
+    <section id="products" class="container card">
+      <h3>Featured Products</h3>
+      <ul>
+        <li>Wooden Wardrobe — Durable & stylish</li>
+        <li>Bedroom Set — Comfortable and elegant</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container card">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>Phone: +966 XXXXXXXXX</p>
+
+      <!-- Optional: use a form service (replace with your form endpoint) -->
+      <form action="https://formspree.io/f/your-id" method="POST">
+        <input name="name" placeholder="نام" required />
+        <input name="email" type="email" placeholder="ایمیل" required />
+        <textarea name="message" placeholder="پیغام" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Fictional System</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html> addindex.html
