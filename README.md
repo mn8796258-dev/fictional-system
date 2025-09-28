@@ -1,2 +1,2 @@
 # fictional-system
-"This repository is dedicated to my furniture store. We offer high-quality bedroom sets, wooden wardrobes, beads, and home furniture at affordable prices. Our goal is to provide durable and stylish products that bring comfort and elegance to every home."
+"This repository is dedicatThis repository contains the website for Fictional System — a furniture business. Built with simple HTML and CSS and hosted on GitHub Pages.ed to my furniture store. We offer high-quality bedroom sets, wooden wardrobes, beads, and home furniture at affordable prices. Our goal is to provide durable and stylish products that bring comfort and elegance to every home."
